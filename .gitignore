@@ -1,4 +1,8 @@
+### Firebase ###
 .idea
 **/node_modules/*
-**/firebase/*
-**/firebaserc
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
