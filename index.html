@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat test</title>
+    <title>Chat Test</title>
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
@@ -22,7 +22,7 @@
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-            <span class="mdl-layout-title">Chat test</span>
+            <span class="mdl-layout-title">Chat Test</span>
             <div class="mdl-layout-spacer"></div>
             <nav class="mdl-navigation mdl-layout--large-screen-only">
 
@@ -36,12 +36,12 @@
         </div>
     </header>
     <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Chat test</span>
+        <span class="mdl-layout-title">Chat Test</span>
         <nav class="mdl-navigation">
             <a class="mdl-navigation__link" target="_blank" href="https://firebase.google.com/">Firebase</a>
             <a class="mdl-navigation__link" target="_blank" href="https://getmdl.io/components/">MDL</a>
-            <a class="mdl-navigation__link" target="_blank" href="https://github.com/muryelca">GitHub</a>
-            <a class="mdl-navigation__link" target="_blank" href="http://muryelca.github.io">@muryelca</a>
+            <a class="mdl-navigation__link" target="_blank" href="https://github.com/muryelca/auth-github">GitHub Repo</a>
+            <a class="mdl-navigation__link" target="_blank" href="https://muryelcagithub.io">@muryelca</a>
             <!---->
         </nav>
     </div>
@@ -60,7 +60,7 @@
                                                 <h2 class="mdl-card__title-text">Bem vindo</h2>
                                             </div>
                                             <div class="mdl-card__supporting-text">
-                                                Para iniciar no Chat autentique-se com o GitHub.
+                                                Para iniciar no Chat Test autentique-se com o GitHub.
                                             </div>
                                             <div class="mdl-card__actions mdl-card--border">
                                                 <!-- Accent-colored raised button with ripple -->
@@ -154,12 +154,11 @@
         <h4 class="mdl-dialog__title">Chat Test</h4>
         <div class="mdl-dialog__content">
             <p>
-                Exemplo de utilziacao do firebase para autenticar Github<br><br>
+               <strong>Simples exemplo de utilização de Firebase.</strong> <br><br>
 
-                Links uteis:<br>
-                <a target="_blank" href="https://github.com/muryelca">Repositório no GitHub</a><br>
-                <a target="_blank" href="http://muryelca.github.io">Curriculo de Muryel Cabral</a><br><br>
-
+                <strong>Links uteis:<br></strong>
+                <a target="_blank" href="https://github.com/muryelca/auth-github">Repositório no GitHub</a><br>
+                <a target="_blank" href="https:/muryelca.github.io">Curriculo Muryel Cabral</a><br>
                 <a target="_blank" href="https://firebase.google.com/">Firebase</a><br>
                 <a target="_blank" href="https://getmdl.io/components/">Materia Design Lite (MDL)</a><Br>
 
@@ -171,22 +170,17 @@
     </dialog>
 </div>
 
-
-<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
-  <!-- firebase -->
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
 <script>
-  // Configuracoes de Auth
-  var firebaseConfig = {
-    apiKey: "AIzaSyCbtpjXbtdAP0UYsPLBh-nMep93g2Zglis",
-    authDomain: "chat-github-3c9a6.firebaseapp.com",
-    databaseURL: "https://chat-github-3c9a6.firebaseio.com",
-    projectId: "chat-github-3c9a6",
-    storageBucket: "",
-    messagingSenderId: "223823776129",
-    appId: "1:223823776129:web:fc43c589a86587423cc080"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDHosKQuCNxBcBIweE9tRkoUHxyvm4p2qc",
+        authDomain: "tdcchat2016-fe9cc.firebaseapp.com",
+        databaseURL: "https://tdcchat2016-fe9cc.firebaseio.com",
+        storageBucket: "",
+    };
+    firebase.initializeApp(config);
 </script>
 
 
