@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # firebase-tdc-chat
 
 [Live demo](https://tdcchat2016-fe9cc.firebaseapp.com/)
@@ -9,3 +10,6 @@ Tentei usar o mínimo de recursos para faciltar o entendimento, sem precisar de 
 Video explicando o código: [YouTube](https://youtu.be/ML1f7uAf3L4).
 
 Apresentação de slides: [SlideShare](http://pt.slideshare.net/634727338/firebase-realtime-database-e-autenticao).
+=======
+# Auth-Github
+>>>>>>> c2541ccc771433513839bdaf162b93d528454830
