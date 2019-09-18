@@ -9,6 +9,7 @@
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
+    color: rebeccapurple;
 }
 
 .snippet-group .snippet-demos, .snippet-group .snippet-captions {
@@ -40,8 +41,8 @@
 }
 
 .demo-card-square > .mdl-card__title {
-    color: #fff;
-    background: rgb(255, 0, 234);
+    color: black(255, 255, 255);
+    background: rebeccapurple;
 }
 
 .demo-list-icon {
@@ -62,15 +63,12 @@
     width: 32px;
     padding: 0;
     overflow: hidden;
-    color: rebeccapurple;
     line-height: normal;
 }
 
 .mdl-button {
     background: 0 0;
-    border: none;
-    border-radius: 2px;
-    /*color: #000;*/
+    color: black;
     position: relative;
     height: 36px;
     margin: 0;
@@ -92,6 +90,25 @@
     line-height: 36px;
     vertical-align: middle;
 }
+
+.mdl-layout__drawer{
+    color: black;
+    background-clip: border-box;
+}
+.button-users{
+    
+    background: rebeccapurple;
+}
+
+
+.mdl-layout__header-row{
+    color: white;
+    background: rebeccapurple;
+}
+.mdl-layout__header{
+    background: rebeccapurple;
+}
+
 
 .mdl-button--fab {
     border-radius: 50%;
