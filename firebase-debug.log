@@ -1,0 +1,21 @@
+[debug] [2019-09-18T07:04:47.000Z] ----------------------------------------------------------------------
+[debug] [2019-09-18T07:04:47.036Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\murye\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2019-09-18T07:04:47.037Z] CLI Version:   7.3.2
+[debug] [2019-09-18T07:04:47.037Z] Platform:      win32
+[debug] [2019-09-18T07:04:47.037Z] Node Version:  v10.16.3
+[debug] [2019-09-18T07:04:47.088Z] Time:          Wed Sep 18 2019 04:04:47 GMT-0300 (GMT-03:00)
+[debug] [2019-09-18T07:04:47.088Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-18T07:04:47.141Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-18T07:04:47.144Z] > authorizing via signed-in user
+[debug] [2019-09-18T07:04:47.145Z] [iam] checking project chat-github-3c9a6 for permissions ["firebase.projects.get"]
+[debug] [2019-09-18T07:04:47.157Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-github-3c9a6:testIamPermissions  
+
+[debug] [2019-09-18T07:04:48.501Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-18T07:04:48.507Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chat-github-3c9a6  
+ 
+[debug] [2019-09-18T07:04:49.785Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-18T07:04:49.796Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chat-github-3c9a6/webApps/-/config  
+ 
+[debug] [2019-09-18T07:04:50.269Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:5000
