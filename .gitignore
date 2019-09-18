@@ -1,6 +1,16 @@
-.idea/
-*.iws
-.idea_modules/
-ignore all logs
-*.log
-.firebase/
+/.vscode
+node_modules
+/coverage
+/.nyc_output
+firebase-debug.log
+npm-debug.log
+yarn.lock
+.npmrc
+
+.DS_Store
+.idea
+*.iml
+*.tgz
+scripts/*.json
+
+lib/
