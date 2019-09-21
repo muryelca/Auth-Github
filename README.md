@@ -6,7 +6,6 @@
 #### Is simple and can be incremented several other features.
 
 
-<<<<<<< HEAD
 ##### [If you want to test just click here.](https://chat-github-3c9a6.web.app/ "click here")
-=======
+
 ##### [If you want to test just click here.](https://chat-github-3c9a6.web.app/ "click here")
