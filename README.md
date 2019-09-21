@@ -1,4 +1,7 @@
-# Chat for users in Github
+# A chat for Github users
 
-## https://chat-github-3c9a6.web.app/
+## Using #JavaScript, #CSS, #HTML and #Firebase
 
+## Is simple and can be incremented several other features
+
+### [if you want to test just ](https://chat-github-3c9a6.web.app/ "click here")
