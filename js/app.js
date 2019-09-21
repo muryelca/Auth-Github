@@ -197,21 +197,21 @@ $(document).ready(function () {
     });
 
         //****************** Loggout ******************
-        Parse.$ = jQuery;
-        Parse.initialize("...", "...");
-    
-        $('.form-logout').on('submit', function (e) {
-            e.preventDefault();
-            console.log("Performing submit");
-
+            Parse.$ = jQuery;
+            Parse.initialize("...", "...");
+        
+            $('.form-logout').on('submit', function (e) {
+                e.preventDefault();
+        
+                console.log("Performing submit");
+        
                 if ( Parse.User.current() ) {
                     Parse.User.logOut();
-                if (Parse.User.current())
-                console.log("Failed to log out!");
-            }
-            window.location.href = "/index.html";
+
+                    if (Parse.User.current())
+                        console.log("Failed to log out!");
+                }
+                window.location.href = "/index.html";
+            });
         });
-
-
-});
 
