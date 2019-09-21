@@ -1,6 +1,6 @@
 # A chat for Github users
 
-### Using [JavaScript] (https://github.com/topics/javascript "JavaScript")
+### [JavaScript] (https://github.com/topics/javascript "JavaScript")
 [CSS] (https://github.com/topics/css "CSS")
 [HTML] (https://github.com/topics/html "HTML")
 [Material Design Lite (MDL)] (https://getmdl.io/components/ "Material Design Lite (MDL)")
